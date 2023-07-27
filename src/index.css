@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(styles.css);
+
+
+.new-expense-control label {
+    @apply font-bold mb-2 block
+}
+
+.new-expense-control input { 
+    @apply text-inherit p-2 rounded-md border-formborder w-[20rem] max-w-[100%]
+}
+
+.new-expense button {
+    @apply cursor-pointer px-8 py-4 border-200 bg-200 text-white rounded-xl mr-4 hover:bg-btnstate hover:border-btnstate active:bg-btnstate active:border-btnstate
+}
